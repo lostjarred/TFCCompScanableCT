@@ -8,7 +8,7 @@ print("Terrafirma Craft: Compad: Scanables :oredict");
 /*<ore:primalcraftingtable> : 
 	[<primal:worktable_shelf:8>.withTag({type: "lacquer"}), <primal:worktable_slab:9>.withTag({type: "corypha"})],
 */
-//all the ores, need to update oredict to reflect metals
+//all the ores, need to update oredict to reflect metals, may need to remove metals added by addon 
 val addoreditcts = {
 	<ore:oreblockTFCCopper> : 
 	["tfc:ore/native_copper/", "tfc:ore/malachite/", "tfc:ore/tetrahedrite/", ],
