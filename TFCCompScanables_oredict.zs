@@ -8,7 +8,7 @@ print("Terrafirma Craft: Compad: Scanables :oredict");
 /*<ore:primalcraftingtable> : 
 	[<primal:worktable_shelf:8>.withTag({type: "lacquer"}), <primal:worktable_slab:9>.withTag({type: "corypha"})],
 */
-
+//all the ores, need to update oredict to reflect metals
 val addoreditcts = {
 	<ore:oreblockTFCCopper> : 
 	["tfc:ore/native_copper/", "tfc:ore/malachite/", "tfc:ore/tetrahedrite/", ],
@@ -140,6 +140,7 @@ val addoreditcts = {
 	["tfc:ore/spodumene/"],
 } as string[][IOreDictEntry];
 
+//all the rock types found in TFC, 
 val rocktypes = [
 	"granite",
 	"diorite",
@@ -169,7 +170,9 @@ val rocktypes = [
 for oredictentry, itemstackarray in addoreditcts {
 	for tfcitemstring in itemstackarray {
 		for rockstrings in rocktypes{
+			//get the item string, combine with rock string to get item reference
 			var itemstring = tfcitemstring + rockstrings;
+			//getItem(location, @Optional meta);
 			var itemstack = itemUtils.getItem(itemstring);
 			//oreDictEnt.add(IItemStack... item_items);
 			oredictentry.add(itemstack);
