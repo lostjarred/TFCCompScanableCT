@@ -9,7 +9,7 @@ to the config where you want to the ores to be scaned
 
 oreblockTFCCopper oreblockTFCGold oreblockTFCPlatinum oreblockTFCIron oreblockTFCSilver oreblockTFCTin oreblockTFCLead oreblockTFCBismuth oreblockTFCNickel oreblockTFCZinc oreblockTFCCoal oreblockTFCLignite oreblockTFCKaolinite oreblockTFCGypsum oreblockTFCSatinspar oreblockTFCSelenite oreblockTFCGraphite oreblockTFCKimberlite oreblockTFCPetrifiedwood oreblockTFCSulfur oreblockTFCJet oreblockTFCMicrocline oreblockTFCPitchblende oreblockTFCCinnabar oreblockTFCCryolite oreblockTFCSaltpeter oreblockTFCSerpentine oreblockTFCSylvite oreblockTFCBorax oreblockTFCOlivine oreblockTFCLapislazuli oreblockTFCArdite oreblockTFCOsmium oreblockTFCStibnite oreblockTFCBauxite oreblockTFCWolframite oreblockTFCCobaltite oreblockTFCThorianite oreblockTFCChromite oreblockTFCPyrolusite oreblockTFCMagnesite oreblockTFCBoron oreblockTFCSpodumene
 
-
+for example
 S:oresCommon <
         oreCoal
         oreIron
