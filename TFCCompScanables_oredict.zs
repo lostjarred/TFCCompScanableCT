@@ -26,7 +26,7 @@ val addoreditcts = {
 	["tfc:ore/native_silver/"],
 
 	<ore:oreblockTFCTin> : 
-	["tfc:ore/cassiterite"],
+	["tfc:ore/cassiterite/"],
 
 	<ore:oreblockTFCLead> : 
 	["tfc:ore/galena/"],
